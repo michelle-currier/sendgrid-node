@@ -1,29 +1,3 @@
-// const sgMail = require("@sendgrid/mail");
-// const { error } = require("console");
-
-// const API_KEY =
-//   "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";
-
-// sgMail.setApiKey(API_KEY);
-
-// const message = {
-//   to: "mcurrierdesigns@gmail.com",
-//   from: "mushel@gmail.com",
-//   //   from: {
-//   //     name: "m. currier designs",
-//   //     email: "mcurrierdesigns@gmail.com",
-//   //   },
-//   subject: "hello from send grid and node js app",
-//   text: "heyyy from send grid. re test",
-//   htm: "<h1>heyy from send grid. i deleted the mcurrierdesigns single sneder verification.",
-// };
-
-// sgMail
-//   .send(message)
-//   .then((response) => console.log("email sent!"))
-//   .catch((error) => console.log(error.message));
-
-// chat gpt try
 import React, { useRef, useState } from "react";
 
 function App() {
